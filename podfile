@@ -1,0 +1,8 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.0'
+
+target 'CoffeePal' do
+  use_frameworks!
+  pod 'MQTTClient', '0.9.9'
+end
+
